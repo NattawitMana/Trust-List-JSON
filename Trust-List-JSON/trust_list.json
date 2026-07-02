@@ -1,7 +1,7 @@
 {
   "@context": "https://etda.or.th/trusted-list/v1",
   "id": "urn:etda:trusted-list:2026-v1",
-  "issued": "2026-07-02T04:58:51.247Z",
+  "issued": "2026-07-02T04:59:29.959Z",
   "next_update": "2026-09-08T00:00:00Z",
   "issuer": "did:web:etda.or.th",
   "entities": [
@@ -9,7 +9,7 @@
       "id": "iss-12354",
       "name_th": "บริษัท A จำกัด (ผู้รับรอง)",
       "name_en": "A Company Limited (Issuer)",
-      "status": "revoked",
+      "status": "active",
       "services": [
         {
           "did": "did:web:issuer.acompany.com",
@@ -68,36 +68,6 @@
           "signing_pubkey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0wal...",
           "valid_from": "2026-09-08T00:00:00Z",
           "valid_until": "2027-09-08T00:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "ver-387",
-      "name_th": "บริษัท Gutkowski - Hegmann จำกัด (ผู้ตรวจสอบ)",
-      "name_en": "Stiedemann LLC Co., Ltd. (Verifier)",
-      "status": "active",
-      "services": [
-        {
-          "did": "did:web:verifier.h.com",
-          "type": "verifier",
-          "signing_pubkey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ver...",
-          "client_id": "https://client.t.com/callback",
-          "credential_type": "ThaiNationalID",
-          "use_case": [
-            {
-              "use_case_id": "uc-x-01",
-              "purpose_th": "เปิดบัญชีและยืนยันตัวตนออนไลน์",
-              "purpose_en": "Online Account Opening and KYC",
-              "allowed_claims": [
-                "citizen_id",
-                "name_th",
-                "name_en",
-                "date_of_birth"
-              ]
-            }
-          ],
-          "valid_from": "2026-07-02T00:00:00Z",
-          "valid_until": "2027-07-02T00:00:00Z"
         }
       ]
     }
