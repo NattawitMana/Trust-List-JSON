@@ -1,7 +1,7 @@
 {
   "@context": "https://etda.or.th/trusted-list/v1",
   "id": "urn:etda:trusted-list:2026-v1",
-  "issued": "2026-07-02T04:33:28.077Z",
+  "issued": "2026-07-02T04:58:51.247Z",
   "next_update": "2026-09-08T00:00:00Z",
   "issuer": "did:web:etda.or.th",
   "entities": [
@@ -9,7 +9,7 @@
       "id": "iss-12354",
       "name_th": "บริษัท A จำกัด (ผู้รับรอง)",
       "name_en": "A Company Limited (Issuer)",
-      "status": "active",
+      "status": "revoked",
       "services": [
         {
           "did": "did:web:issuer.acompany.com",
