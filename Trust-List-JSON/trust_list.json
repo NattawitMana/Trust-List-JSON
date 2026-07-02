@@ -1,7 +1,7 @@
 {
   "@context": "https://etda.or.th/trusted-list/v1",
   "id": "urn:etda:trusted-list:2026-v1",
-  "issued": "2026-07-02T07:05:04.976Z",
+  "issued": "2026-07-02T08:34:24.836Z",
   "next_update": "2026-09-08T00:00:00Z",
   "issuer": "did:web:etda.or.th",
   "entities": [
@@ -72,13 +72,13 @@
       ]
     },
     {
-      "id": "iss-830",
-      "name_th": "บริษัท Lynch and Sons จำกัด",
-      "name_en": "Dare, Boyle and Cummings Co., Ltd.",
+      "id": "iss-168",
+      "name_th": "บริษัท Konopelski and Sons จำกัด",
+      "name_en": "Emard LLC Co., Ltd.",
       "status": "active",
       "services": [
         {
-          "did": "did:web:e.com",
+          "did": "did:web:5.com",
           "type": "credential_issuer",
           "credential_type": "ThaiNationalID",
           "signing_pubkey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0iss...",
