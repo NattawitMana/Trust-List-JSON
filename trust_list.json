@@ -1,7 +1,7 @@
 {
   "@context": "https://etda.or.th/trusted-list/v1",
   "id": "urn:etda:trusted-list:2026-v1",
-  "issued": "2026-07-08T02:52:35.046Z",
+  "issued": "2026-07-08T03:38:34.951Z",
   "next_update": "2026-09-08T00:00:00Z",
   "issuer": "did:web:etda.or.th",
   "entities": [
@@ -74,38 +74,6 @@
           "status": "active",
           "valid_from": "2026-09-08T00:00:00Z",
           "valid_until": "2027-09-08T00:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "ver-193",
-      "name_th": "บริษัท Doyle, Kihn and Gutkowski จำกัด (ผู้ตรวจสอบ)",
-      "name_en": "Witting, Grimes and Schaden Co., Ltd. (Verifier)",
-      "status": "active",
-      "services": [
-        {
-          "service_id": "srv-ver-378-01",
-          "did": "did:web:verifier.g.com",
-          "type": "verifier",
-          "signing_pubkey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ver...",
-          "client_id": "https://client.i.com/callback",
-          "credential_type": "ThaiNationalID",
-          "use_case": [
-            {
-              "use_case_id": "uc-6-01",
-              "purpose_th": "เปิดบัญชีและยืนยันตัวตนออนไลน์",
-              "purpose_en": "Online Account Opening and KYC",
-              "allowed_claims": [
-                "citizen_id",
-                "name_th",
-                "name_en",
-                "date_of_birth"
-              ]
-            }
-          ],
-          "status": "active",
-          "valid_from": "2026-07-02T00:00:00Z",
-          "valid_until": "2027-07-02T00:00:00Z"
         }
       ]
     }
