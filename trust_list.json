@@ -1,7 +1,7 @@
 {
   "@context": "https://etda.or.th/trusted-list/v1",
   "id": "urn:etda:trusted-list:2026-v1",
-  "issued": "2026-07-10T04:50:53.074Z",
+  "issued": "2026-07-10T04:51:42.367Z",
   "next_update": "2026-09-08T00:00:00Z",
   "issuer": "did:web:etda.or.th",
   "entities": [
@@ -9,7 +9,7 @@
       "id": "iss-12354",
       "name_th": "บริษัท A จำกัด (ผู้รับรอง)",
       "name_en": "A Company Limited (Issuer)",
-      "status": "active",
+      "status": "revoked",
       "services": [
         {
           "service_id": "srv-iss-12354-01",
@@ -57,21 +57,6 @@
           "status": "active",
           "valid_from": "2026-09-08T00:00:00Z",
           "valid_until": "2027-09-08T00:00:00Z"
-        },
-        {
-          "service_id": "srv-iss-475-02",
-          "did": "did:web:issuer.2.com:new-service",
-          "type": "credential_issuer",
-          "credential_type": "SalaryCertificate",
-          "signing_pubkey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA...",
-          "issueble_claim": [
-            "employee_id",
-            "salary_amount",
-            "position"
-          ],
-          "status": "active",
-          "valid_from": "2026-07-03T00:00:00Z",
-          "valid_until": "2027-07-03T00:00:00Z"
         }
       ]
     },
@@ -89,6 +74,38 @@
           "status": "active",
           "valid_from": "2026-09-08T00:00:00Z",
           "valid_until": "2027-09-08T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ver-440",
+      "name_th": "บริษัท Conn and Sons จำกัด (ผู้ตรวจสอบ)",
+      "name_en": "Dooley, Rau and Treutel Co., Ltd. (Verifier)",
+      "status": "active",
+      "services": [
+        {
+          "service_id": "srv-ver-750-01",
+          "did": "did:web:verifier.5.com",
+          "type": "verifier",
+          "signing_pubkey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ver...",
+          "client_id": "https://client.y.com/callback",
+          "credential_type": "ThaiNationalID",
+          "use_case": [
+            {
+              "use_case_id": "uc-c-01",
+              "purpose_th": "เปิดบัญชีและยืนยันตัวตนออนไลน์",
+              "purpose_en": "Online Account Opening and KYC",
+              "allowed_claims": [
+                "citizen_id",
+                "name_th",
+                "name_en",
+                "date_of_birth"
+              ]
+            }
+          ],
+          "status": "active",
+          "valid_from": "2026-07-02T00:00:00Z",
+          "valid_until": "2027-07-02T00:00:00Z"
         }
       ]
     }
