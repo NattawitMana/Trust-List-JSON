@@ -1,7 +1,7 @@
 {
   "@context": "https://etda.or.th/trusted-list/v1",
   "id": "urn:etda:trusted-list:2026-v1",
-  "issued": "2026-07-13T06:43:04.420Z",
+  "issued": "2026-07-13T07:11:53.628Z",
   "next_update": "2026-09-08T00:00:00Z",
   "issuer": "did:web:etda.or.th",
   "entities": [
@@ -74,46 +74,6 @@
           "status": "active",
           "valid_from": "2026-09-08T00:00:00Z",
           "valid_until": "2027-09-08T00:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "iss-796",
-      "name_th": "บริษัท Kohler, Jerde and Sipes จำกัด",
-      "name_en": "Braun - Prosacco Co., Ltd.",
-      "status": "active",
-      "services": [
-        {
-          "service_id": "srv-iss-545-01",
-          "did": "did:web:e.com",
-          "type": "credential_issuer",
-          "credential_type": "ThaiNationalID",
-          "signing_pubkey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0iss...",
-          "issueble_claim": [
-            "citizen_id",
-            "name_th",
-            "name_en"
-          ],
-          "status": "active",
-          "valid_from": "2026-07-02T00:00:00Z",
-          "valid_until": "2027-07-02T00:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "wal-970",
-      "name_th": "บริษัท Bergnaum - Kshlerin จำกัด (ผู้ให้บริการวอลเล็ต)",
-      "name_en": "Berge Group Co., Ltd. (Wallet Provider)",
-      "status": "active",
-      "services": [
-        {
-          "service_id": "srv-wal-151-01",
-          "did": "did:web:wallet.i.com",
-          "type": "wallet_provider",
-          "signing_pubkey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0wal...",
-          "status": "active",
-          "valid_from": "2026-07-02T00:00:00Z",
-          "valid_until": "2027-07-02T00:00:00Z"
         }
       ]
     }
