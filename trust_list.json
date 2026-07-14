@@ -1,7 +1,7 @@
 {
   "@context": "https://etda.or.th/trusted-list/v1",
-  "id": "urn:etda:trusted-list:QkjI3kP",
-  "issued": "2026-07-14T08:05:57.029Z",
+  "id": "urn:etda:trusted-list:IK5ZyWx",
+  "issued": "2026-07-14T08:22:45.584Z",
   "next_update": "2026-09-08T00:00:00Z",
   "issuer": "did:web:etda.or.th",
   "entities": [
