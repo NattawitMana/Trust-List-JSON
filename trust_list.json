@@ -1,7 +1,7 @@
 {
   "@context": "https://etda.or.th/trusted-list/v1",
-  "id": "urn:etda:trusted-list:9f647398-1b65-49db-b235-f5ed1df6312d",
-  "issued": "2026-07-14T07:39:27.633Z",
+  "id": "urn:etda:trusted-list:ULls0bc",
+  "issued": "2026-07-14T07:49:56.707Z",
   "next_update": "2026-09-08T00:00:00Z",
   "issuer": "did:web:etda.or.th",
   "entities": [
@@ -9,7 +9,7 @@
       "id": "iss-12354",
       "name_th": "บริษัท A จำกัด (ผู้รับรอง)",
       "name_en": "A Company Limited (Issuer)",
-      "status": "revoked",
+      "status": "active",
       "services": [
         {
           "service_id": "srv-iss-12354-01",
@@ -58,6 +58,21 @@
           "status": "active",
           "valid_from": "2026-09-08T00:00:00Z",
           "valid_until": "2027-09-08T00:00:00Z"
+        },
+        {
+          "service_id": "srv-iss-475-02",
+          "did": "did:web:issuer.2.com:new-service",
+          "type": "credential_issuer",
+          "credential_type": "SalaryCertificate",
+          "signing_pubkey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA...",
+          "issueble_claim": [
+            "employee_id",
+            "salary_amount",
+            "position"
+          ],
+          "status": "active",
+          "valid_from": "2026-07-03T00:00:00Z",
+          "valid_until": "2027-07-03T00:00:00Z"
         }
       ]
     },
